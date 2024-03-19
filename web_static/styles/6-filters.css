@@ -60,7 +60,7 @@ h4{
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
 
-	margin-top: 10px;
+	margin-top: 15px;
 
 	left: -50px;
 	padding: 25px 50px 0 0;
@@ -69,17 +69,20 @@ h4{
 
 
 .locations:hover .popover{
-	display: inline-block;
+	display: block;
 }
 
 .amenities:hover .popover {
-	display: inline-block;
+	display: block;
 }
 
 ul {
 	list-style-type: none;
 	padding: 0px;
 	padding-bottom: 20px;
+}
+
+li{
 }
 
 .popover h2{
